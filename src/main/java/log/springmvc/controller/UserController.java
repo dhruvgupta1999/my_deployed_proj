@@ -218,7 +218,7 @@ public class UserController {
 		
 		
 		
-		if(type.isEmpty() || type.isBlank() || size.isEmpty() || size.isBlank() || company.isBlank() || company.isEmpty())
+		if(type.isEmpty()  || size.isEmpty()  || company.isEmpty())
 		{
 			decider1=1;
 			mv.setViewName("redirect:/user/productform");
