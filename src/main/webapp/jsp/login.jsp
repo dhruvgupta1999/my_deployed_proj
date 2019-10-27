@@ -11,8 +11,7 @@
 	<body>
 		 <header>
 <div class="mylinks">
-		<a href="/log/register/">Sign Up</a>
-		
+		<a href="<c:url value="/register"/>">Sign Up</a>
 		<a href="<c:url value="/"/>">Home</a>
 </div>
 </header>
