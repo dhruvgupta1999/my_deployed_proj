@@ -117,7 +117,7 @@ public class LoginController {
 		System.out.println("dec1:"+decider1);
 		System.out.println("dec2:"+decider2);
 		System.out.println("dec3:"+decider3);
-		if(cust.getAddress().isEmpty() || cust.getName().isEmpty() || cust.getPhone().isEmpty() || cust.getUsername().isEmpty() || cust.getEmail().isEmpty() || cust.getAddress().isBlank() || cust.getName().isBlank() || cust.getUsername().isBlank() ||cust.getPassword().isBlank() || cust.getEmail().isBlank())
+		if(cust.getAddress().isEmpty() || cust.getName().isEmpty() || cust.getPhone().isEmpty() || cust.getUsername().isEmpty() || cust.getEmail().isEmpty())
 		{   decider1=1;
 		return "redirect:/register";
 		}
