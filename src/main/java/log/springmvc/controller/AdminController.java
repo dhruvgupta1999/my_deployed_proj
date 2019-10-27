@@ -129,7 +129,7 @@ public class AdminController {
 		
 		System.out.println("reached empregisterprocess()");
 		Employee cust = e;
-		if(cust.getAddress().isEmpty() || cust.getName().isEmpty() || cust.getPhone().isEmpty() || cust.getUsername().isEmpty() || cust.getSalary().isEmpty() || cust.getAddress().isBlank() || cust.getName().isBlank() || cust.getUsername().isBlank() ||cust.getPassword().isBlank() || cust.getSalary().isBlank())
+		if(cust.getAddress().isEmpty() || cust.getName().isEmpty() || cust.getPhone().isEmpty() || cust.getUsername().isEmpty() || cust.getSalary().isEmpty())
 		{   decider1=1;
 		return "redirect:/admin/registeremp";
 		
@@ -192,7 +192,7 @@ public class AdminController {
 		
 		System.out.println("reached empregistersupplierprocess()");
 		Supplier cust = supplier;
-		if(cust.getLocation().isEmpty() || cust.getComp_id().isEmpty() || cust.getCompany().isEmpty() || cust.getLocation().isBlank() || cust.getCompany().isBlank() || cust.getComp_id().isBlank() )
+		if(cust.getLocation().isEmpty() || cust.getComp_id().isEmpty() || cust.getCompany().isEmpty() )
 		{  
 			decider1=1;
 		return "redirect:/admin/addsupplier";
