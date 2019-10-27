@@ -105,7 +105,7 @@ public class EmpController {
 		String type = product.getType();
 		String size = product.getSize();
 		String company = product.getCompany();
-		if( P_id.isEmpty() || type.isEmpty() || size.isEmpty()  company.isEmpty())
+		if( P_id.isEmpty() || type.isEmpty() || size.isEmpty() || company.isEmpty())
 		{
 			decider1=1;
 			return "redirect:/emp/addproduct";
