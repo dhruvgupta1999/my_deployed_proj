@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #202020;
+}
+
+p {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  overflow: hidden;
+}
+
+td {
+  border-top: 1px solid #ecf0f1;
+  padding: 10px;
+  border-left: 1px solid #ecf0f1;
+  border-right: 1px solid #ecf0f1;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+th {
+  border-top: 1px solid #ecf0f1;
+  padding: 10px;
+  background-color: #4ecdc4;
+}
+
+tr:nth-of-type(even) td {
+  background-color: lighten(#4ecdc4, 35%);
+}
+
+.total th {
+  background-color: white;
+}
+
+.total td {
+  text-align: right;
+  font-weight: 700;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.emptycart {
+	background-color: lighten(#4ecdc4, 35%);
+}

@@ -1,0 +1,11 @@
+.gradient {
+  background: linear-gradient(to right,#ff6bb6,#ffc600);
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0.8;
+}
+
+.like-um-big > span {
+  display: block;
+  height: 3.70ex;
+}
