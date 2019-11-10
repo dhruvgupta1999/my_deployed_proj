@@ -22,7 +22,7 @@
 <div class="form_p_container">
 <div class="form_p" align="center">
 		<div class="login">
- <form:form class="form" modelAttribute="supplier" action="/log/admin/registersupplierprocess"
+ <form:form class="form" modelAttribute="supplier" action="admin/registersupplierprocess"
                     method="POST">
                     
                     <c:if test="${not empty msg}">${msg}<br></c:if>
