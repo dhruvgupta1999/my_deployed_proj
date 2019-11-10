@@ -73,7 +73,7 @@
 <div class="form_p_container">
 <div class="form_p" align="center">
 		<div class="login">
- <form:form class="form" modelAttribute="user" action="/log/registerprocess"
+ <form:form class="form" modelAttribute="user" action="registerprocess"
                     method="POST">
                     
                     <c:if test="${not empty msg}">${msg}<br></c:if>
