@@ -21,7 +21,7 @@
 <div class="form_p_container">
 <div class="form_p" align="center">
 		<div class="login">
-<form:form class="form" modelAttribute="product" action="/log/emp/addproductprocess"
+<form:form class="form" modelAttribute="product" action="emp/addproductprocess"
 					method="POST">
 			<c:if test="${not empty error_message}"><p> ${error_message}</p></c:if>
         <c:if test="${not empty error_message2}"><p> ${error_message2}</p></c:if>
