@@ -22,7 +22,7 @@
 <div class="login">
 
 		 
-		<form:form class="form" modelAttribute="user" action="/log/admin/empregisterprocess"
+		<form:form class="form" modelAttribute="user" action="admin/empregisterprocess"
 					method="POST">
 				<c:if test="${not empty num_reg }">registered new employee successfully!</c:if>
 			 <c:if test="${not empty msg}">${msg}<br></c:if>
