@@ -15,7 +15,7 @@
 <body>
 <c:if test="${empty paint }">
 		<h1 id="banner">Ask your Question</h1>  
-		<form:form class="form" modelAttribute="myareaholder" action="/log/user/materialprint/"
+		<form:form class="form" modelAttribute="myareaholder" action="user/materialprint/"
 					method="POST">
 			
 			<c:if test="${not empty error_msg}"><br><br><br>${error_msg}</c:if>
