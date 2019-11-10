@@ -15,7 +15,7 @@
 <body>
 <c:if test="${empty ceilcolor }">
 		
-		<form:form class="form" modelAttribute="mywallcolor" action="/log/user/colorforsubmit/"
+		<form:form class="form" modelAttribute="mywallcolor" action="user/colorforsubmit/"
 					method="POST">
 					<c:if test="${not empty error_msg}"><br><br><br>${error_msg}</c:if>
 				<h2>Expert Advice</h2>	
