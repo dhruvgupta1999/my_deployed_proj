@@ -21,7 +21,7 @@
 <div class="form_p_container">
 <div class="form_p" align="center">
 		<div class="login">
- <form:form class="form" modelAttribute="user" action="/log/user/updateprofileprocess"
+ <form:form class="form" modelAttribute="user" action="user/updateprofileprocess"
                     method="POST">
                     
                     <c:if test="${not empty msg}">${msg}<br></c:if>
