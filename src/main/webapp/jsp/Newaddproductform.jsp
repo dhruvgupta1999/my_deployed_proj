@@ -14,7 +14,7 @@
 <!--  <body>
 <p><c:if test="${not empty msg}">${msg}</c:if></p>
 <h1 id="banner">what do you need?</h1>  
-<form:form modelAttribute="product" action="/log/user/getproduct"
+<form:form modelAttribute="product" action="user/getproduct"
 					method="POST">
 			<table>
 				<tr>
@@ -62,7 +62,7 @@
 <div class="form_p_container">
 <div class="form_p" align="center">
 		<div class="login">
- <form:form class="form" modelAttribute="product" action="/log/user/getproduct" method="POST">
+ <form:form class="form" modelAttribute="product" action="user/getproduct" method="POST">
         <c:if test="${not empty error_message}"><p> ${error_message}</p></c:if>
         <c:if test="${not empty error_message2}"><p> ${error_message2}</p></c:if>
         <h2>Product</h2>
