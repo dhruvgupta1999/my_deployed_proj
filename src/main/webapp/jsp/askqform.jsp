@@ -15,7 +15,7 @@
 <body>
 <c:if test="${empty q_done }">
 		<h1 id="banner">Ask your Question</h1>  
-		<form:form class="form" modelAttribute="myquestion" action="/log/user/add_q/"
+		<form:form class="form" modelAttribute="myquestion" action="user/add_q/"
 					method="POST">
 			<c:if test="${not empty error_msg}"><br><br><br>${error_msg}</c:if>
 				<h2>Expert Advice</h2>	
