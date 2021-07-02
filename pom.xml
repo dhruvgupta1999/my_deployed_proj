@@ -15,7 +15,7 @@
         <servlet.version>3.1.0</servlet.version>
         <servlet.version>3.0.1</servlet.version>
         <mysql.connector.version>8.0.16</mysql.connector.version>
-        <org.springframework.version>5.2.10.RELEASE</org.springframework.version>
+        <org.springframework.version>5.2.11.RELEASE</org.springframework.version>
         
     </properties>
     <dependencies>
